@@ -1,0 +1,12 @@
+[package]
+name = "bluebus-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bluebus = "0.1.0"
+tokio = "1.44.0"
+zbus = "5.5.0"
+
+[lib]
+path = "src/lib.rs"
